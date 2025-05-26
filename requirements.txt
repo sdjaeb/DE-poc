@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests
+pandas
+duckdb     # For OLAP database
+SQLAlchemy # Optional, but good for ORM/DB Abstraction in larger projects
+ruff       # For code linting
+pre-commit # For managing pre-commit hooks

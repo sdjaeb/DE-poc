@@ -1,0 +1,10 @@
+# Basic Ruff configuration
+line-length = 120
+target-version = "py313"
+
+[lint]
+select = ["E", "F", "W", "I"] # Error, Flake8, Warning, Isort
+ignore = []
+
+[lint.flake8-quotes]
+inline-quotes = "single"
